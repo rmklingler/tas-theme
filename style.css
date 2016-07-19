@@ -1,0 +1,170 @@
+/*
+ Theme Name:   TAS Theme
+ Theme URI:    rackling90@gmail.com
+ Description:  Spacious Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     spacious
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.tg-one-fifth {
+    float: left;
+    margin: 0 1.23125%;
+    padding: 0 0 30px;
+    width: 17.204%;
+}
+/*.tg-one-third {
+    float: left;
+    margin: 0 2.46305%;
+    padding: 0 0 30px;
+    width: 28.4072%;
+}*/
+@media screen and (max-width: 1078px) {
+    .tg-one-fifth {
+        float: left;
+        width: 46.7684729%;
+    }
+    .widget_service_block .tg-one-fifth {
+        float: left;
+        margin: 0 2.46305%;
+        padding: 0 0 30px;
+        width: 28.4072%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .tg-one-fifth {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .widget_service_block .tg-one-fifth {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
+.widget_service_block .widget-title {
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+div.six-services h3.widget-title a {
+    font-size: 22px;
+}
+div.six-services p {
+    font-style: italic;
+    text-align: center;
+}
+div.six-services h3 {
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+
+/* Style the recent post list on the homepage*/
+.tg-one-half .recent-posts-extended h3.widget-title {
+    text-align: left;
+    color: rgb(34, 34, 34);
+    font-size: 22px;
+}
+div.rpwe-block h3.rpwe-title {
+    font-size: 16px;
+    padding-bottom: 0;
+}
+div.rpwe-block time.rpwe-time {
+    font-size: 12px;
+}
+div.rpwe-block div.rpwe-summary {
+    font-size: 14px;
+}
+
+
+/* Style the header border */
+
+#header-text-nav-container {
+    border-bottom: 10px solid rgb(78,79,80);
+}
+.home div#main {
+    border-top: 10px solid #251284;
+}
+div.header-post-title-container {
+    border-top: 10px solid #251284;
+}
+
+/* Drop cap on styled headers */
+.stylized-widget-title{
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 700;
+    color: #251284;
+}
+.featured-text {
+     font-family: 'Open-Sans', sans-serif;
+     color: #251284;
+     font-size: 35px;
+     padding-bottom: 30px;
+     font-weight: 700;
+
+ }
+.stylized-widget-title:first-child:first-letter {
+    float: none;
+    vertical-align: -26%;
+    color: rgb(78,79,80);
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 2px;
+}
+
+/* Business Lines pages */
+.service-image {
+    text-align: center;
+}
+
+h1.business-header {
+    padding-top: 8px;
+    line-height: 29px;
+}
+h2.business-header {
+    font-size: 18px;
+}
+h3.business-header {
+    font-size: 16px;
+}
+#main h2.business-header {
+    line-height: 15px;
+    padding-top: 13px;
+}
+.post-title-wrapper img {
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 0px;
+}
+.page-template-page_business-lines thead {
+    background-color: #E5E5E5;
+    font-weight: 700;
+}
+.header-post-title-container .post-title-wrapper {
+    float: none;
+}
+.bl-related-posts {
+    padding-bottom: 50px;
+}
+.entry-content .tg-one-half p, .entry-content .tg-one-third p, .entry-content .tg-one-fourth p {
+    text-align: left;
+}
+
+/* Footer social icons */
+.footer-social .fa {
+    font-size: 20px;
+    padding: 2px;
+}
+.footer-social .fa-linkedin-square:hover {
+    color: #007bb5;
+}
+.footer-social .fa-facebook-square:hover {
+    color: #3b5998;
+}
